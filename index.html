@@ -1,0 +1,2068 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Giopio is a Digital Agency">
+    <meta property="og:title" content="Giopio">
+    <meta property="og:type" content="Digital Agency">
+    <meta property="og:url" content="https://giopio.com/">
+    <meta property="og:image" content="https://giopio.com/wp-content/uploads/2023/11/main-logo-dark.png">
+    <meta name="theme-color" content="#009688">
+
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+
+    <!-- swipper carousol -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- swipper carousol -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <title>Laraclassified - Home </title>
+</head>
+
+<body class="font-roboto bg-first" dir="ltr">
+
+    <!-- header -->
+    <header class="w-full bg-white px-[14px] py-2 shadow-first">
+        <div class="container">
+            <div class="grid grid-cols-2 xl:grid-cols-3">
+                <!-- brand -->
+                <div class="xl:flex xl:gap-x-8 xl:col-span-2">
+                    <a href="#">
+                        <img src="./assets/images/logo.svg" alt="Logo" class="xl:w-[100px]">
+                    </a>
+
+                    <!-- only for desktop -->
+                    <div class="hidden xl:flex gap-x-7 items-center">
+                        <button type="button"
+                            class="flex text-sm font-normal font-inter items-center gap-x-2 text-black">
+                            Location
+                            <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.657471 0.5L5.65747 5.5L10.6575 0.5" stroke="black" />
+                            </svg>
+                        </button>
+                        <!-- search -->
+                        <div class="relative">
+                            <svg width="19" height="18" class="absolute left-3 top-1/2 -translate-y-1/2"
+                                viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.6575 17L13.8798 13.2156M15.9733 8.15789C15.9733 10.0563 15.2191 11.8769 13.8768 13.2193C12.5344 14.5617 10.7138 15.3158 8.81537 15.3158C6.91697 15.3158 5.09634 14.5617 3.75397 13.2193C2.4116 11.8769 1.65747 10.0563 1.65747 8.15789C1.65747 6.2595 2.4116 4.43886 3.75397 3.0965C5.09634 1.75413 6.91697 1 8.81537 1C10.7138 1 12.5344 1.75413 13.8768 3.0965C15.2191 4.43886 15.9733 6.2595 15.9733 8.15789V8.15789Z"
+                                    stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+
+                            <input type="text" placeholder="Search an iteam"
+                                class="border border-frst rounded-full bg-[#FCFCFC] h-8 min-w-[450px] pl-10 font-normal text-sm">
+                        </div>
+                        <!-- language -->
+                        <div class="relative dropdown">
+                            <button type="button"
+                                class="flex text-sm font-normal font-inter items-center gap-x-2 text-black dropdown-toggle">
+                                EN
+                                <svg class="pointer-events-none" width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.657471 0.5L5.65747 5.5L10.6575 0.5" stroke="black" />
+                                </svg>
+                            </button>
+                            <div
+                                class="dropdown-content absolute z-50 -bottom-40 left-0 bg-white shadow-second rounded-[10px] min-w-[152px] hidden">
+                                <h6
+                                    class="text-sm xl:text-base font-medium text-frst px-[12px] py-[6px] border-b border-[#E4E4E4]">
+                                    Language</h6>
+
+                                <ul class="py-4 px-[6px] flex flex-col gap-y-2">
+                                    <li>
+                                        <button type="button"
+                                            class="flex items-center w-full h-[34px] border border-[#E4E4E4] rounded-md px-3 py-1 text-xs font-medium anim  bg-[#333D62] text-white">
+                                            English
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button type="button"
+                                            class="flex items-center w-full h-[34px] border border-[#E4E4E4] rounded-md px-3 py-1 text-xs font-medium anim text-black hover:bg-[#333D62] hover:text-white">
+                                            العربية
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- only for desktop -->
+                </div>
+                <!-- brand -->
+
+                <!-- icons -->
+                <div class="w-full text-end flex items-center justify-end gap-x-6 xl:col-span-1">
+                    <button type="button" class="xl:hidden">
+                        <img src="./assets/images/search.svg" alt="search">
+                    </button>
+
+                    <button type="button" class="xl:hidden">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_295_7987)">
+                                <path
+                                    d="M22.5 21.0001H1.50001C0.671548 21.0001 0 20.3285 0 19.5001C0 18.6716 0.671548 18 1.50001 18H22.5C23.3285 18 24.0001 18.6716 24.0001 19.5001C24 20.3285 23.3285 21.0001 22.5 21.0001ZM22.5 13.5H1.50001C0.671548 13.5 0 12.8285 0 12.0001C0 11.1716 0.671548 10.5 1.50001 10.5H22.5C23.3285 10.5 24.0001 11.1716 24.0001 12.0001C24.0001 12.8285 23.3285 13.5 22.5 13.5ZM22.5 6.00002H1.50001C0.671548 6.00002 0 5.32847 0 4.50001C0 3.67155 0.671548 3 1.50001 3H22.5C23.3285 3 24.0001 3.67155 24.0001 4.50001C24.0001 5.32847 23.3285 6.00002 22.5 6.00002Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_295_7987">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                    <!-- only for desktop -->
+                    <div class="hidden xl:flex gap-x-[18px] xl:items-center">
+                        <!-- login dropdown -->
+                        <div class="relative dropdown">
+
+                            <button type="button"
+                                class="font-normal text-sm flex items-center gap-x-2 anim dropdown-toggle">Login
+                                 <svg class="pointer-events-none"
+                                    width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.42109 9C10.5518 9 11.6361 8.52589 12.4356 7.68198C13.2351 6.83807 13.6842 5.69347 13.6842 4.5C13.6842 3.30653 13.2351 2.16193 12.4356 1.31802C11.6361 0.474106 10.5518 0 9.42109 0C8.29043 0 7.20608 0.474106 6.40658 1.31802C5.60709 2.16193 5.15793 3.30653 5.15793 4.5C5.15793 5.69347 5.60709 6.83807 6.40658 7.68198C7.20608 8.52589 8.29043 9 9.42109 9ZM12.2632 4.5C12.2632 5.29565 11.9638 6.05871 11.4308 6.62132C10.8978 7.18393 10.1749 7.5 9.42109 7.5C8.66732 7.5 7.94442 7.18393 7.41142 6.62132C6.87842 6.05871 6.57899 5.29565 6.57899 4.5C6.57899 3.70435 6.87842 2.94129 7.41142 2.37868C7.94442 1.81607 8.66732 1.5 9.42109 1.5C10.1749 1.5 10.8978 1.81607 11.4308 2.37868C11.9638 2.94129 12.2632 3.70435 12.2632 4.5ZM17.9474 16.5C17.9474 18 16.5264 18 16.5264 18H2.31583C2.31583 18 0.894775 18 0.894775 16.5C0.894775 15 2.31583 10.5 9.42109 10.5C16.5264 10.5 17.9474 15 17.9474 16.5ZM16.5264 16.494C16.5249 16.125 16.3075 15.015 15.344 13.998C14.4175 13.02 12.6739 12 9.42109 12C6.16688 12 4.42467 13.02 3.49814 13.998C2.53467 15.015 2.31867 16.125 2.31583 16.494H16.5264Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+
+                            <div
+                                class="w-[90%] mx-auto xl:w-[300px] absolute top-8 -right-28 z-50 hidden anim dropdown-content">
+                                <div
+                                    class="text-center xl:bg-white xl:border xl:border-[#E4E4E4] xl:p-[22px] xl:rounded-xl">
+                                    <h1 class="text-xl font-medium text-frst xl:text-[22px]">Sign in</h1>
+                                    <form action="" class="mt-3 w-full flex flex-col font-inter gap-y-4">
+
+                                        <div class="w-full">
+                                            <input type="text" placeholder="Email or Phone"
+                                                class="w-full block border border-frst px-3 py-2 rounded-md h-[42px] text-sm font-normal text-[#696969]  xl:text-base anim focus-within:border-[#350453]">
+                                        </div>
+                                        <div class="w-full relative">
+                                            <input id="passwordInput" type="password" placeholder="Password"
+                                                class="w-full block border border-frst px-3 py-2 rounded-md h-[42px] text-sm font-normal text-[#696969] xl:text-base anim focus-within:border-[#350453]">
+
+                                            <button type="button" id="togglePassword"
+                                                class="block absolute right-3 top-1/2 -translate-y-1/2">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.37844 1.81925C11.1856 1.81925 13.6891 3.3969 14.9112 5.893C13.6891 8.38909 11.193 9.96674 8.37844 9.96674C5.56386 9.96674 3.06776 8.38909 1.84564 5.893C3.06776 3.3969 5.57126 1.81925 8.37844 1.81925ZM8.37844 0.337891C4.67504 0.337891 1.51233 2.64141 0.230957 5.893C1.51233 9.14458 4.67504 11.4481 8.37844 11.4481C12.0818 11.4481 15.2446 9.14458 16.5259 5.893C15.2446 2.64141 12.0818 0.337891 8.37844 0.337891ZM8.37844 4.04129C9.40058 4.04129 10.2301 4.87086 10.2301 5.893C10.2301 6.91513 9.40058 7.7447 8.37844 7.7447C7.3563 7.7447 6.52674 6.91513 6.52674 5.893C6.52674 4.87086 7.3563 4.04129 8.37844 4.04129ZM8.37844 2.55993C6.54156 2.55993 5.04538 4.05611 5.04538 5.893C5.04538 7.72988 6.54156 9.22606 8.37844 9.22606C10.2153 9.22606 11.7115 7.72988 11.7115 5.893C11.7115 4.05611 10.2153 2.55993 8.37844 2.55993Z"
+                                                        fill="#BEBEBE" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="w-full text-end">
+                                            <a href="#"
+                                                class="block text-xs font-medium text-[#323D62] underline">Forget
+                                                password</a>
+                                        </div>
+                                        <div class="w-full">
+                                            <button type="submit"
+                                                class="w-full flex justify-center items-center border border-frst px-3 py-2 rounded-md bg-second text-white h-[42px] anim hover:bg-[#2B2B2B] text-sm font-normal xl:text-base">Sign
+                                                in</button>
+                                        </div>
+                                        <div class="w-full text-center">
+                                            <p
+                                                class="text-xs font-normal text-second tracking-[4%] flex justify-center items-center xl:text-sm">
+                                                Already have an account? <a href="#"
+                                                    class="inline-flex font-medium ml-1"> Sign In</a></p>
+
+                                            <h6
+                                                class="text-base font-medium font-inter text-second tracking-[8%] my-5 xl:text-lg">
+                                                -OR-</h6>
+                                        </div>
+                                        <div class="w-full">
+                                            <a href="#"
+                                                class="flex items-center justify-center border border-frst px-3 py-2 rounded-md text-black text-opacity-45 h-[46px] anim hover:border-[#323D62] text-sm font-medium gap-x-3 hover:font-bold xl:text-base">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M20.6465 10.9482C20.6465 10.2234 20.5815 9.52646 20.4607 8.85742H10.834V12.8112H16.335C16.098 14.0889 15.3779 15.1715 14.2953 15.8962V18.4609H17.5987C19.5315 16.6814 20.6465 14.061 20.6465 10.9482Z"
+                                                        fill="#4285F4" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M10.8339 20.9356C13.5937 20.9356 15.9074 20.0203 17.5986 18.4592L14.2953 15.8946C13.38 16.5079 12.2092 16.8703 10.8339 16.8703C8.17171 16.8703 5.91835 15.0722 5.11458 12.6562H1.69971V15.3045C3.38159 18.6451 6.83828 20.9356 10.8339 20.9356Z"
+                                                        fill="#34A853" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M5.11485 12.6574C4.91042 12.0441 4.79427 11.389 4.79427 10.7153C4.79427 10.0417 4.91042 9.38655 5.11485 8.77327V6.125H1.69998C1.00771 7.50489 0.612793 9.06597 0.612793 10.7153C0.612793 12.3647 1.00771 13.9258 1.69998 15.3057L5.11485 12.6574Z"
+                                                        fill="#FBBC05" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M10.8339 4.55947C12.3346 4.55947 13.682 5.07518 14.7413 6.08803L17.673 3.15635C15.9028 1.50699 13.589 0.494141 10.8339 0.494141C6.83828 0.494141 3.38159 2.78466 1.69971 6.1252L5.11458 8.77347C5.91835 6.3575 8.17171 4.55947 10.8339 4.55947Z"
+                                                        fill="#EA4335" />
+                                                </svg>
+                                                Continue with Google
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- login dropdown -->
+                        <button type="button"
+                            class="flex bg-third text-white text-sm font-normal font-inter items-center px-8 h-8 py-[6px] rounded-full anim hover:bg-white hover:text-first border border-[#350453]">
+                            Post Ad
+                        </button>
+                    </div>
+                </div>
+                <!-- icons -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <main class="w-full">
+        <div class="container">
+            <div class="xl:grid xl:grid-cols-[78%_22%]">
+                <!-- content left -->
+                <div class="w-[98%]">
+                    <div class="xl:flex xl:flex-col">
+                        <!-- category -->
+                        <div class="w-full my-[6px] xl:order-2 xl:my-5">
+                            <div class="hidden xl:flex xl:justify-between mb-[6px] xl:mb-5 xl:items-center">
+                                <h5 class="title">Top Category</h5>
+                                <div class="slider-arrows relative hidden xl:flex xl:items-center xl:gap-x-[14px]">
+                                    <button type="button" class="slide-prev flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                    justify-center anim hover:bg-[#350453] group rtl:order-2">
+                                        <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.69514 11.1428L6.99994 9.83354L2.76165 5.57139L6.99994 1.30925L5.69514 -3.44463e-05L0.142796 5.57139L5.69514 11.1428Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </button> 
+
+                                    <button type="button" class="slide-next flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                    justify-center anim hover:bg-[#350453] group rtl:order-1">
+                                        <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.30474 2.28139e-07L-6.12641e-05 1.30929L4.23823 5.57143L-6.27545e-05 9.83357L1.30474 11.1429L6.85708 5.57143L1.30474 2.28139e-07Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper categorySlider">
+                                <!-- flex items-center gap-x-[5px] xl:gap-x-2 -->
+                                <div class="swiper-wrapper">
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-01.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Automobiles</h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Real estate
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Electronics
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-01.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Automobiles</h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Real estate
+                                        </h6>
+                                    </div>
+                                    <!-- item 1 -->
+                                    <!-- /item 7 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Electronics
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+    
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Real estate
+                                        </h6>
+                                    </div>
+                                    <!-- item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Electronics
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="category-realstate.html">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- category --> 
+
+                        <!-- hero section -->
+                        <div class="w-full xl:order-1 xl:mt-5">
+                            <img src="./assets/images/hero-mobile.png" alt="hero" class="xl:hidden block w-full">
+                            <img src="./assets/images/desktop-hero.png" alt="hero"
+                                class="w-full hidden xl:block rounded-md object-cover">
+                        </div>
+                        <!-- hero section -->
+                    </div>
+
+                    <!-- top categories only for desktop start -->
+                    <div class="w-full hidden xl:flex xl:flex-col xl:my-5">
+                        <div
+                            class="header gra-bg-2 text-center min-h-[148px] rounded-t-lg py-[24px] px-[30px] shadow-four">
+                            <h6 class="text-white text-[22px] font-normal">Top Categories, a wide variety of interests
+                                and needs. </h6>
+                        </div>
+
+                        <div class="grid px-12 grid-cols-4 gap-x-[22px] items-center -mt-16">
+                            <!-- item -->
+                            <div class="w-full">
+                                <img src="./assets/images/top-category-01.png" alt="top cat"
+                                    class="w-[175px] h-[175px] rounded-full object-cover p-3 border-4 border-[#E8E8E8] mx-auto">
+
+                                <div class="text-center mt-4">
+                                    <h5 class="text-[#1D1D1D] font-medium text-2xl mb-[6px]">Automobiles</h5>
+                                    <h6 class="text-base font-normal text-[#4F4F4F]">Project manager</h6>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="w-full">
+                                <img src="./assets/images/top-category-02.png" alt="top cat"
+                                    class="w-[175px] h-[175px] rounded-full object-cover p-3 border-4 border-[#E8E8E8] mx-auto">
+
+                                <div class="text-center mt-4">
+                                    <h5 class="text-[#1D1D1D] font-medium text-2xl mb-[6px]">Automobiles</h5>
+                                    <h6 class="text-base font-normal text-[#4F4F4F]">Project manager</h6>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="w-full">
+                                <img src="./assets/images/top-category-03.png" alt="top cat"
+                                    class="w-[175px] h-[175px] rounded-full object-cover p-3 border-4 border-[#E8E8E8] mx-auto">
+
+                                <div class="text-center mt-4">
+                                    <h5 class="text-[#1D1D1D] font-medium text-2xl mb-[6px]">Automobiles</h5>
+                                    <h6 class="text-base font-normal text-[#4F4F4F]">Project manager</h6>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="w-full">
+                                <img src="./assets/images/top-category-04.png" alt="top cat"
+                                    class="w-[175px] h-[175px] rounded-full object-cover p-3 border-4 border-[#E8E8E8] mx-auto">
+
+                                <div class="text-center mt-4">
+                                    <h5 class="text-[#1D1D1D] font-medium text-2xl mb-[6px]">Automobiles</h5>
+                                    <h6 class="text-base font-normal text-[#4F4F4F]">Project manager</h6>
+                                </div>
+                            </div>
+                            <!-- item -->
+                        </div>
+                    </div>
+                    <!-- top categories only for desktop end -->
+
+                    <!-- desktop hero -->
+                    <div class="w-full hidden xl:block xl:my-6">
+                        <img src="./assets/images/desktop-hero.png" alt="a" class="w-full max-h-[200px] rounded-md">
+                    </div>
+                    <!-- desktop hero -->
+
+                    <!-- real state only for desktop start -->
+                    <div class="w-full hidden xl:block xl:my-5">
+                        <div class="header gra-bg-2 text-start rounded-t-lg py-[44px] px-[60px] shadow-four">
+                            <h6 class="text-white text-[32px] font-bold leading-[120%]">REAL ESTATE</h6>
+                        </div>
+                        <div class="flex px-20 items-center gap-x-10 -mt-16">
+                            <p class="text-lg font-normal leading-[34px]">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Suspendisse in mi sed velit
+                                lacinia vu. Lorem ipsum dolor sit amet,</p>
+                            <div class="gra-bg-3 p-[15px] w-[288px] h-[288px] shrink-0">
+                                <img src="./assets/images/real-state.png" alt="real state"
+                                    class="w-full h-full rounded-full object-cover">
+                            </div>
+                        </div>
+                        <div class="header gra-bg-2 text-start h-[65px] shadow-four -mt-10">
+                        </div>
+                    </div>
+                    <!-- real state only for desktop end -->
+
+                    <!-- featured section -->
+                    <div class="w-full my-[14px] xl:my-6">
+                        <div class="xl:flex xl:justify-between mb-[6px] xl:mb-5 items-center">
+                            <h5 class="title">Featured In Real Estate</h5>
+                          
+                            <div class="slider-arrows hidden xl:flex xl:items-center xl:gap-x-[14px]">
+                                <button type="button" class="slide-prev-2 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-2">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.69514 11.1428L6.99994 9.83354L2.76165 5.57139L6.99994 1.30925L5.69514 -3.44463e-05L0.142796 5.57139L5.69514 11.1428Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="slide-next-2 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-1">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.30474 2.28139e-07L-6.12641e-05 1.30929L4.23823 5.57143L-6.27545e-05 9.83357L1.30474 11.1429L6.85708 5.57143L1.30474 2.28139e-07Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- xl:grid xl:items-start xl:grid-cols-3 2xl:grid-cols-4 xl:gap-x-5 -->
+                        <div class="swiper featSlider pb-2 px-1"> 
+                            <div class="swiper-wrapper"> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/featured-01.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <a href="ad-details.html"
+                                            class="text-[#363636] block font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</a>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-02.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <a href="ad-details.html"
+                                            class="text-[#363636] block font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</a>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-03.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <a href="ad-details.html"
+                                            class="text-[#363636] block font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</a>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-04.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <a href="ad-details.html"
+                                            class="text-[#363636] block font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</a>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-04.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <a href="ad-details.html"
+                                            class="text-[#363636] block font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</a>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <!-- featured slider -->
+                        
+                        <!-- featured slider -->
+                    </div>
+                    <!-- featured section -->
+
+                    <!-- poster -->
+                    <div class="w-full my-3 xl:my-5">
+                        <img src="./assets/images/newst-auto-cover.png" alt="cover" class="w-full block xl:hidden">
+                        <img src="./assets/images/tech-poster.png" alt="cover" class="w-full hidden xl:block">
+                    </div>
+                    <!-- poster -->
+
+                    <!-- urgent section -->
+                    <div class="w-full my-[14px] xl:my-6">
+                        <div class="xl:flex xl:justify-between mb-[6px] xl:mb-5 items-center">
+                            <h5 class="title">Urgent</h5>
+                          
+                            <div class="slider-arrows hidden xl:flex xl:items-center xl:gap-x-[14px]">
+                                <button type="button" class="slide-prev-3 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-2">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.69514 11.1428L6.99994 9.83354L2.76165 5.57139L6.99994 1.30925L5.69514 -3.44463e-05L0.142796 5.57139L5.69514 11.1428Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="slide-next-3 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-1">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.30474 2.28139e-07L-6.12641e-05 1.30929L4.23823 5.57143L-6.27545e-05 9.83357L1.30474 11.1429L6.85708 5.57143L1.30474 2.28139e-07Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="swiper urgentSlider pb-2 px-1"> 
+                            <div class="swiper-wrapper"> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/featured-01.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <h4
+                                            class="text-[#363636] font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</h4>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-02.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <h4
+                                            class="text-[#363636] font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</h4>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-03.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <h4
+                                            class="text-[#363636] font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</h4>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-04.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <h4
+                                            class="text-[#363636] font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</h4>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="shadow-second bg-white rounded-[5px] swiper-slide">
+                                    <div class="w-full relative">
+                                        <img src="./assets/images/features-04.png" alt="featured-01"
+                                            class="w-full rounded-t-[5px] h-[207px] object-cover xl:h-[170px]">
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[22px] inline-block absolute -bottom-[14px] right-0 xl:hidden rtl:inline-flex">AED14,343</span>
+    
+                                        <span
+                                            class="path-two text-sm font-semibold text-white px-2 py-[6px] pr-[22px] absolute -bottom-[14px] left-0 hidden xl:inline-flex !bg-[#4E0339B8] rtl:hidden">NISSAN
+                                            Qashqai 2018</span>
+                                    </div>
+                                    <div class="p-2">
+                                        <div class="flex gap-x-2 items-center xl:hidden">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <h4
+                                            class="text-[#363636] font-medium text-base leading-[21px] my-3 xl:text-[13px] xl:tracking-[1%] xl:leading-[17px]">
+                                            Premium
+                                            offices for
+                                            rent Good Location in west east london</h4>
+    
+                                        <div
+                                            class="pt-3 border-t border-[#00000021] flex items-center justify-between w-full xl:pt-1">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-normal">London
+                                                UK</span>
+                                            <span class="block text-xs font-light text-[#1F0A11E5] xl:hidden">6 Hours
+                                                ago</span>
+                                            <span class="text-xs font-bold text-[#1F0A11E5] hidden xl:block">AED 2500</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <!-- featured slider --> 
+                    </div>
+                    <!-- urgent section -->
+
+                    <!-- newst in auto section -->
+                    <div class="w-full xl:hidden">
+                        <h5 class="text-lg font-semibold text-black mb-[6px]">Newest in Auto</h5>
+                        <div class="flex flex-col gap-y-[10px]">
+                            <!-- itm -->
+                            <div class="flex shadow-third rounded-md p-[10px] px-2 gap-x-4">
+                                <img src="./assets/images/car.png" alt="car"
+                                    class="block w-[62px] h-[63px] object-cover rounded-md">
+                                <div>
+                                    <h6 class="text-base font-medium text-black leading-[19px]">Premium offices for
+                                        rent
+                                        Good Location in west east london</h6>
+                                    <div class="flex items-center justify-between mt-2">
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">AED1200</span>
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">London</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="flex shadow-third rounded-md p-[10px] px-2 gap-x-4">
+                                <img src="./assets/images/car.png" alt="car"
+                                    class="block w-[62px] h-[63px] object-cover rounded-md">
+                                <div>
+                                    <h6 class="text-base font-medium text-black leading-[19px]">Premium offices for
+                                        rent
+                                        Good Location in west east london</h6>
+                                    <div class="flex items-center justify-between mt-2">
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">AED1200</span>
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">London</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="flex shadow-third rounded-md p-[10px] px-2 gap-x-4">
+                                <img src="./assets/images/car.png" alt="car"
+                                    class="block w-[62px] h-[63px] object-cover rounded-md">
+                                <div>
+                                    <h6 class="text-base font-medium text-black leading-[19px]">Premium offices for
+                                        rent
+                                        Good Location in west east london</h6>
+                                    <div class="flex items-center justify-between mt-2">
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">AED1200</span>
+                                        <span
+                                            class="font-inter text-sm font-semibold text-[#303030] leading-[18px]">London</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                        </div>
+                    </div>
+                    <!-- newst in auto section -->
+
+                    <!-- automobile section start -->
+                    <div class="w-full hidden xl:block xl:my-5">
+                        <div class="header gra-bg-2 text-start rounded-t-lg py-[44px] px-[60px] shadow-four">
+                            <h6 class="text-white text-[32px] font-bold leading-[120%]">AUTOMOBILE</h6>
+                        </div>
+                        <div class="flex px-20 items-center gap-x-10 -mt-16">
+                            <p class="text-lg font-normal leading-[34px]">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Suspendisse in mi sed velit
+                                lacinia vu. Lorem ipsum dolor sit amet,</p>
+                            <div class="gra-bg-3 p-[15px] w-[288px] h-[288px] shrink-0">
+                                <img src="./assets/images/automobile.png" alt="real state"
+                                    class="w-full h-full rounded-full object-cover">
+                            </div>
+                        </div>
+                        <div class="header gra-bg-2 text-start h-[65px] shadow-four -mt-10">
+                        </div>
+                    </div>
+                    <!-- automobile section end -->
+
+                    <!-- latest add section -->
+                    <div class="w-full my-[14px] xl:my-5">
+                        <h5 class="text-lg font-semibold text-black mb-[6px] xl:text-xl xl:mb-5">Latest Ads</h5>
+                        <div class="grid grid-cols-2 gap-3 xl:grid-cols-3 2xl:grid-cols-4">
+                            <!-- itm -->
+                            <div class="shadow-second rounded-md bg-white">
+                                <img src="./assets/images/add-01.png" alt="car"
+                                    class="block w-full h-[157px] object-cover rounded-t-md">
+                                <div class="text-center py-2 px-[6px] flex flex-col justify-between">
+                                    <h6 class="text-[15px] font-normal text-[#000000E5] leading-[19px] mb-[10px]">
+                                        New BMW
+                                        for sale </h6>
+
+                                    <h5 class="text-sm font-semibold text-black uppercase">AED14,343</h5>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="shadow-second rounded-md bg-white">
+                                <img src="./assets/images/add-02.png" alt="car"
+                                    class="block w-full h-[157px] object-cover rounded-t-md">
+                                <div class="text-center py-2 px-[6px] flex flex-col justify-between">
+                                    <h6 class="text-[15px] font-normal text-[#000000E5] leading-[19px] mb-[10px]">
+                                        car in
+                                        good condition for sale in Dubai </h6>
+
+                                    <h5 class="text-sm font-semibold text-black uppercase">AED14,343</h5>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="shadow-second rounded-md bg-white">
+                                <img src="./assets/images/add-03.png" alt="car"
+                                    class="block w-full h-[157px] object-cover rounded-t-md">
+                                <div class="text-center py-2 px-[6px] flex flex-col justify-between">
+                                    <h6 class="text-[15px] font-normal text-[#000000E5] leading-[19px] mb-[10px]">
+                                        Premium..
+                                        Manison Good Location For </h6>
+
+                                    <h5 class="text-sm font-semibold text-black uppercase">AED14,343</h5>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="shadow-second rounded-md bg-white">
+                                <img src="./assets/images/add-04.png" alt="car"
+                                    class="block w-full h-[157px] object-cover rounded-t-md">
+                                <div class="text-center py-2 px-[6px] flex flex-col justify-between">
+                                    <h6 class="text-[15px] font-normal text-[#000000E5] leading-[19px] mb-[10px]">
+                                        Premium..
+                                        Manison Good Location For </h6>
+
+                                    <h5 class="text-sm font-semibold text-black uppercase">AED14,343</h5>
+                                </div>
+                            </div>
+                            <!-- itm -->
+                        </div>
+                    </div>
+                    <!-- latest add section -->
+
+                    <!-- big poster -->
+                    <div class="w-full xl:hidden">
+                        <div class="flex">
+                            <div class="w-full relative">
+                                <img src="./assets/images/big-poster.png" alt="poster" class="w-full rounded-md">
+                                <div
+                                    class="absolute gra-bg bottom-0 left-0 w-full h-[50%] z-40 text-center rounded-b-md px-6 flex justify-center items-end py-8">
+                                    <h6 class="text-[20px] font-normal text-white leading-[24px]">Premium.. Manison
+                                        Good
+                                        Location For</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- big poster -->
+
+                    <!-- details list start -->
+                    <div class="w-full my-[14px] xl:my-5">
+                        <div class="flex flex-col gap-y-4 xl:grid xl:grid-cols-2 xl:gap-x-5 xl:gap-y-[22px]">
+                            <!-- itm -->
+                            <div class="w-full shadow-second bg-white rounded-md">
+                                <div class="header flex items-center justify-between py-[6px] px-3">
+                                    <div class="flex gap-x-2 items-center">
+                                        <img src="./assets/images/avatar.png" alt="avatar"
+                                            class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                        <div class="w-full">
+                                            <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                            <p
+                                                class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                London</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-end flex items-center gap-x-4">
+                                        <button type="button">
+                                            <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </button>
+                                        <button type="button">
+                                            <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                    stroke="black" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- thumb slider -->
+                                <div class="w-full relative">
+
+                                    <!-- thumb slider -->
+                                     <div class="swiper thumbnailSwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/red-car.png" alt="car" class="w-full h-[235px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/add-01.png" alt="car" class="w-full h-[235px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/add-02.png" alt="car" class="w-full h-[235px] object-cover">
+                                            </div>
+                                        </div>
+                                     </div>
+                                    <!-- thumb slider --> 
+                                    <div class="swiper-pagination bg-black bg-opacity-50 rounded-full py-1 px-2 text-white font-medium text-sm w-auto ml-[50%] -translate-x-[50%]"></div>
+                                    
+                                    <span
+                                        class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block absolute -bottom-[6px] left-0 z-40">AED14,343</span>
+                                </div>
+                                <!-- thumb slider -->
+
+                                <div class="badge bg-[#0D0202D6] px-4 py-2 -mt-[1px] xl:hidden">
+                                    <ul class="flex items-center justify-between gap-x-2">
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">3 Bedroom </p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">2 Bath</p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">1200 Sq.ft </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="px-2 py-3">
+                                    <h5 class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize">
+                                        ntroducing the All-New Exhilarator X</h5>
+                                    <p class="text-sm font-normal leading-5 text-black">Get ready to experience the
+                                        epitome of automotive excellence with the all-new Exhilarator X.</p>
+
+                                    <div
+                                        class="pt-3 mt-3 border-t border-[#00000021] flex items-center justify-between w-full">
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">London UK</span>
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">6 Hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="w-full shadow-second bg-white rounded-md">
+                                <div class="header flex items-center justify-between py-[6px] px-3">
+                                    <div class="flex gap-x-2 items-center">
+                                        <img src="./assets/images/avatar.png" alt="avatar"
+                                            class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                        <div class="w-full">
+                                            <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                            <p
+                                                class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                London</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-end flex items-center gap-x-4">
+                                        <button type="button">
+                                            <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </button>
+                                        <button type="button">
+                                            <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                    stroke="black" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- thumb slider -->
+                                <div class="w-full relative">
+                                   <!-- thumb slider -->
+                                   <div class="swiper thumbnailSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="./assets/images/red-car.png" alt="car" class="w-full h-[235px] object-cover">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/images/add-01.png" alt="car" class="w-full h-[235px] object-cover">
+                                        </div> 
+                                    </div>
+                                 </div>
+                                <!-- thumb slider --> 
+
+                                    <span
+                                        class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block absolute -bottom-[6px] left-0 z-40">AED14,343</span>
+                                </div>
+                                <!-- thumb slider -->
+                                <!-- <div class="swiper-pagination2 bg-black bg-opacity-50 rounded-full py-1 px-2 text-white font-medium text-sm w-auto ml-[50%] -translate-x-[50%]"></div> -->
+
+                                <div class="badge bg-[#0D0202D6] px-4 py-2 -mt-[1px] xl:hidden">
+                                    <ul class="flex items-center justify-between gap-x-2">
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">3 Bedroom </p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">2 Bath</p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">1200 Sq.ft </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="px-2 py-3">
+
+                                    <h5 class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize">
+                                        ntroducing the All-New Exhilarator X</h5>
+                                    <p class="text-sm font-normal leading-5 text-black">Get ready to experience the
+                                        epitome of automotive excellence with the all-new Exhilarator X.</p>
+
+                                    <div
+                                        class="pt-3 mt-3 border-t border-[#00000021] flex items-center justify-between w-full">
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">London UK</span>
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">6 Hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- itm -->
+                        </div>
+                    </div>
+                    <!-- details list end -->
+
+                    <!-- poster -->
+                    <div class="w-full my-3 xl:my-5">
+                        <img src="./assets/images/newst-auto-cover.png" alt="cover" class="w-full block xl:hidden">
+                        <img src="./assets/images/tech-poster.png" alt="cover" class="w-full hidden xl:block">
+                    </div>
+                    <!-- poster -->
+
+                    <!-- bottom add listing -->
+                    <div class="w-full hidden xl:block mb-5">
+                        <div class="flex gap-y-5 flex-col">
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                        </div>
+                        <div class="text-center my-12">
+                            <a href="#"
+                                class="bg-[#35164D] px-7 py-[10px] inline-flex rounded-lg text-white font-semibold text-base anim hover:bg-second">See
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- bottom add listing -->
+                </div>
+                <!-- content left -->
+
+                <!-- content rightbar -->
+                <div class="w-full pt-5 hidden xl:block">
+                    <!-- side-bar-section -->
+                    <div class="relative mb-[87px]">
+                        <img class="w-full object-cover rounded-lg" src="assets/images/side-bar-car.png" alt="img">
+                        <div class="w-full absolute bottom-0 left-0 sidecar-bg text-center px-4 rounded-b-lg">
+                            <h3 class="pb-[40px] font-bold text-[20px] text-white leading-[26px]">
+                                Get ready to experience the epitome
+                                of automotive excellence Get read
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[50px] news-fashion-bg rounded-tr-[10px]">
+                            <h4 class="text-left pl-[14px] leading-[20px] text-[16px] font-inter font-bold">News in
+                                Fashion</h4>
+                        </div>
+                        <div class="px-[12px]">
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-t border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-md object-cover"
+                                    src="assets/images/fashion-man-img.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-xs text-[#000000B0] leading-4">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-02.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                    <div class="mt-[125px]">
+                        <div class="relative w-full mb-[23px] last:mb-0">
+                            <img class="w-full h-[176px] rounded-[10px] object-cover" src="assets/images/red-car.png"
+                                alt="img">
+                            <div
+                                class="h-full flex flex-col justify-between absolute top-0 left-0 rounded-[10px] car-gradient">
+                                <div class="flex items-center gap-[14px] mt-[10px] ml-4">
+                                    <div
+                                        class="w-10 h-10 flex justify-center items-center border border-solid border-[#C4C4C4] rounded-full">
+                                        <img class="w-[35px] h-[35px] rounded-full" src="assets/images/car-man-img.png"
+                                            alt="img">
+                                    </div>
+                                    <div class="g">
+                                        <h4 class="font-inter font-semibold text-[14px] text-white pb-[4px]">Curve line
+                                        </h4>
+                                        <p class="font-inter font-light text-[12px] text-white">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="ml-[18px] mb-[10px] font-inter font-medium text-[12px] leading-[16px] text-white">
+                                    Get ready to experience the epitome of automotive excellence Get ready.....</p>
+                            </div>
+                        </div>
+                        <div class="relative w-full mb-[23px] last:mb-0">
+                            <img class="w-full h-[176px] rounded-[10px] object-cover" src="assets/images/red-car.png"
+                                alt="img">
+                            <div
+                                class="h-full flex flex-col justify-between absolute top-0 left-0 rounded-[10px] car-gradient">
+                                <div class="flex items-center gap-[14px] mt-[10px] ml-[16px]">
+                                    <div
+                                        class="w-[40px] h-[40px] flex justify-center items-center border border-solid border-[#C4C4C4] rounded-full">
+                                        <img class="w-[35px] h-[35px] rounded-full" src="assets/images/car-man-img.png"
+                                            alt="img">
+                                    </div>
+                                    <div class="g">
+                                        <h4 class="font-inter font-semibold text-[14px] text-white pb-[4px]">Curve line
+                                        </h4>
+                                        <p class="font-inter font-light text-[12px] text-white">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="ml-[18px] mb-[10px] font-inter font-medium text-[12px] leading-[16px] text-white">
+                                    Get ready to experience the epitome of automotive excellence Get ready.....</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                    <div class="mt-[139px] w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[50px] news-fashion-bg rounded-tr-[10px]">
+                            <h4 class="text-left pl-[14px] leading-[20px] text-[16px] font-inter font-bold">News in
+                                Fashion</h4>
+                        </div>
+                        <div class="px-[12px]">
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-t border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-02.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-[139px] mb-[22px] w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[42px] news-fashion-bg rounded-tr-[10px]">
+                            <h4
+                                class="text-left pl-[22px] leading-[20px] text-[16px] font-inter font-medium italic text-[#434343]">
+                                Top Category</h4>
+                        </div>
+                        <div
+                            class="pb-[10px] pt-[9px] flex items-start justify-center gap-[16px] border-t border-solid border-[#0000002B]">
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">Cars
+                                </p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Furniture</p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Fashion</p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Electron<br>ics</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-details -->
+                    <div class="mb-[9px] last:mb-0 w-full card-details py-[17px] px-[14px] rounded-[10px] bg-white">
+                        <div class="w-full min-h-[122px] flex items-center justify-between">
+                            <div class="w-full">
+                                <div class="flex items-center gap-[15px]">
+                                    <img class="w-[34px] h-[34px] rounded-[4px]" src="assets/images/card-img.png"
+                                        alt="img">
+                                    <div class="">
+                                        <h3 class="font-inter font-semibold text-[14px] text-[#313131]">Curve line</h3>
+                                        <p class="font-inter font-light text-[#6C6C6C] text-[12px]">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="pt-[10px] pb-[12px] font-inter font-normal leading-[16px] text-[12px] text-[#848484]">
+                                    Get ready to experience<br>the epitome of excellence </p>
+                                <button type="button">
+                                    <span
+                                        class="inline-flex justify-center items-center px-4 h-[30px] bg-[#3E62E3] hover:bg-[#233a8a] transition duration-[0.2s] rounded font-inter font-normal text-[10px] text-white">Details</span>
+                                </button>
+                            </div>
+                            <div class="">
+                                <img class="w-[130px] h-[122px] object-cover rounded-[6px]"
+                                    src="assets/images/card-img-02.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[9px] last:mb-0 w-full card-details py-[17px] px-[14px] rounded-[10px] bg-white">
+                        <div class="w-full min-h-[122px] flex items-center justify-between">
+                            <div class="w-full">
+                                <div class="flex items-center gap-[15px]">
+                                    <img class="w-[34px] h-[34px] rounded-[4px]" src="assets/images/card-img.png"
+                                        alt="img">
+                                    <div class="">
+                                        <h3 class="font-inter font-semibold text-[14px] text-[#313131]">Curve line</h3>
+                                        <p class="font-inter font-light text-[#6C6C6C] text-[12px]">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="pt-[10px] pb-[12px] font-inter font-normal leading-[16px] text-[12px] text-[#848484]">
+                                    Get ready to experience<br>the epitome of excellence </p>
+                                <button type="button">
+                                    <span
+                                        class="inline-flex justify-center items-center px-4 h-[30px] bg-[#3E62E3] hover:bg-[#233a8a] transition duration-[0.2s] rounded font-inter font-normal text-[10px] text-white">Details</span>
+                                </button>
+                            </div>
+                            <div class="">
+                                <img class="w-[130px] h-[122px] object-cover rounded-[6px]"
+                                    src="assets/images/card-img-02.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-[9px] last:mb-0 w-full card-details py-[17px] px-[14px] rounded-[10px] bg-white">
+                        <div class="w-full min-h-[122px] flex items-center justify-between">
+                            <div class="w-full">
+                                <div class="flex items-center gap-[15px]">
+                                    <img class="w-[34px] h-[34px] rounded-[4px]" src="assets/images/card-img.png"
+                                        alt="img">
+                                    <div class="">
+                                        <h3 class="font-inter font-semibold text-[14px] text-[#313131]">Curve line</h3>
+                                        <p class="font-inter font-light text-[#6C6C6C] text-[12px]">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="pt-[10px] pb-[12px] font-inter font-normal leading-[16px] text-[12px] text-[#848484]">
+                                    Get ready to experience<br>the epitome of excellence </p>
+                                <button type="button">
+                                    <span
+                                        class="inline-flex justify-center items-center px-4 h-[30px] bg-[#3E62E3] hover:bg-[#233a8a] transition duration-[0.2s] rounded font-inter font-normal text-[10px] text-white">Details</span>
+                                </button>
+                            </div>
+                            <div class="">
+                                <img class="w-[130px] h-[122px] object-cover rounded-[6px]"
+                                    src="assets/images/card-img-02.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-details -->
+                    <!-- first-car-img -->
+                    <div class="relative mt-[28px]">
+                        <img class="w-full object-cover" src="assets/images/first-car.png" alt="img">
+                        <div class="w-full absolute bottom-0 left-0 sidecar-bg rounded-[10px]">
+                            <h3
+                                class="pb-[25px] font-inter font-bold text-[20px] text-white leading-[26px] text-center">
+                                Get ready to experience<br>the epitome<br>
+                                of automotive excellence
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- first-car-img -->
+                    <div class="mt-[83px] mb-[34px] w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[42px] news-fashion-bg rounded-tr-[10px]">
+                            <h4
+                                class="text-left pl-[22px] leading-[20px] text-[16px] font-inter font-medium italic text-[#434343]">
+                                Top Category</h4>
+                        </div>
+                        <div
+                            class="pb-[10px] pt-[9px] flex items-start justify-center gap-[16px] border-t border-solid border-[#0000002B]">
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">Cars
+                                </p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Furniture</p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Fashion</p>
+                            </div>
+                            <div class="">
+                                <div
+                                    class="flex items-center justify-center w-[48px] h-[48px] border border-solid border-[#E8E8E8] rounded-full">
+                                    <img class="w-[41px] h-[41px] object-cover" src="assets/images/category-01.png"
+                                        alt="img">
+                                </div>
+                                <p class="text-center pt-[6px] font-inter font-normal text-[#484848] text-[12px] ">
+                                    Electron<br>ics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- brand-car -->
+                    <div class="bg-[#E6E6E6] rounded-[6px]">
+                        <img class="w-full h-[138px] object-cover rounded-[6px]" src="assets/images/brand-car.png"
+                            alt="icon">
+                        <div class="mt-[-30px] flex flex-col justify-center items-center px-[8px]">
+                            <img src="assets/images/brand-logo.png" alt="logo">
+                            <h4 class="mt-[-8px] font-inter font-semibold text-[#313131] text-[14px] text-center">Curve
+                                line</h4>
+                            <p
+                                class="pt-[4px] pb-[16px] font-inter font-normal text-[#636363] text-[12px] leading-[16px] text-center">
+                                Get ready to experience the epitome of excellence Get ready to experience the epitome of
+                                excellence Get ready to experience the epitome of excellence
+                            </p>
+                        </div>
+                        <div class="w-full bg-[#262047CF] rounded-[10px] p-[14px]">
+                            <div class="flex items-center justify-between w-full">
+                                <p class="font-inter font-bold text-[12px] text-white">Get ready to experience the
+                                    epitome<br>
+                                    <span class="font-medium">of automotive excellence Get read</span>
+                                </p>
+                                <a href="#"
+                                    class="w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center">
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.9"
+                                            d="M0.943971 11.3332L5.1653 6.70098L0.852585 2.15369L2.1522 0.730681L7.80192 6.67473L2.27166 12.7301L0.943971 11.3332Z"
+                                            fill="#4A4A4A" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- brand-car -->
+                    <div class="mt-[25px] w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[50px] news-fashion-bg rounded-tr-[10px]">
+                            <h4 class="text-left pl-[14px] leading-[20px] text-[16px] font-inter font-bold">News in
+                                Fashion</h4>
+                        </div>
+                        <div class="px-[12px]">
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-t border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-02.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive excellence</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                    <div class="mt-[59px]">
+                        <div class="relative w-full mb-[23px] last:mb-0">
+                            <img class="w-full h-[176px] rounded-[10px] object-cover" src="assets/images/red-car.png"
+                                alt="img">
+                            <div
+                                class="h-full flex flex-col justify-between absolute top-0 left-0 rounded-[10px] car-gradient">
+                                <div class="flex items-center gap-[14px] mt-[10px] ml-[16px]">
+                                    <div
+                                        class="w-[40px] h-[40px] flex justify-center items-center border border-solid border-[#C4C4C4] rounded-full">
+                                        <img class="w-[35px] h-[35px] rounded-full" src="assets/images/car-man-img.png"
+                                            alt="img">
+                                    </div>
+                                    <div class="g">
+                                        <h4 class="font-inter font-semibold text-[14px] text-white pb-[4px]">Curve line
+                                        </h4>
+                                        <p class="font-inter font-light text-[12px] text-white">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="ml-[18px] mb-[10px] font-inter font-medium text-[12px] leading-[16px] text-white">
+                                    Get ready to experience the epitome of automotive excellence Get ready.....</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                    <!-- first-car-img -->
+                    <div class="relative mt-[28px]">
+                        <img class="w-full object-cover" src="assets/images/first-car-02.png" alt="img">
+                        <div class="w-full absolute bottom-0 left-0 sidecar-bg rounded-[10px]">
+                            <h3
+                                class="pb-[25px] font-inter font-bold text-[20px] text-white leading-[26px] text-center">
+                                Get ready to experience<br>the epitome<br>
+                                of automotive excellence
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- first-car-img -->
+                    <!-- side-bar-section -->
+                </div>
+                <!-- content rightbar -->
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer class="w-full bg-[#332A2A] py-4 xl:py-6 mt-4 xl:mt-8">
+        <div class="container">
+            <div class="text-center">
+                <p class="text-sm font-medium text-white">4000&copy; Copyright 2023, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/slider-custom.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

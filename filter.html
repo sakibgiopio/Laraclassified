@@ -1,0 +1,1654 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Giopio is a Digital Agency">
+    <meta property="og:title" content="Giopio">
+    <meta property="og:type" content="Digital Agency">
+    <meta property="og:url" content="https://giopio.com/">
+    <meta property="og:image" content="https://giopio.com/wp-content/uploads/2023/11/main-logo-dark.png">
+    <meta name="theme-color" content="#009688">
+
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+
+    <!-- swipper carousol -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- swipper carousol -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <title>Laraclassified - Filter Main </title>
+</head>
+
+<body class="font-roboto bg-first" dir="ltr">
+
+    <!-- header -->
+    <header class="w-full bg-white px-[14px] py-2 shadow-first">
+        <div class="container">
+            <div class="grid grid-cols-2 xl:grid-cols-3">
+                <!-- brand -->
+                <div class="xl:flex xl:gap-x-8 xl:col-span-2">
+                    <a href="#">
+                        <img src="./assets/images/logo.svg" alt="Logo" class="xl:w-[100px]">
+                    </a>
+
+                    <!-- only for desktop -->
+                    <div class="hidden xl:flex gap-x-7 items-center">
+                        <button type="button"
+                            class="flex text-sm font-normal font-inter items-center gap-x-2 text-black">
+                            Location
+                            <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.657471 0.5L5.65747 5.5L10.6575 0.5" stroke="black" />
+                            </svg>
+                        </button>
+                        <!-- search -->
+                        <div class="relative">
+                            <svg width="19" height="18" class="absolute left-3 top-1/2 -translate-y-1/2"
+                                viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.6575 17L13.8798 13.2156M15.9733 8.15789C15.9733 10.0563 15.2191 11.8769 13.8768 13.2193C12.5344 14.5617 10.7138 15.3158 8.81537 15.3158C6.91697 15.3158 5.09634 14.5617 3.75397 13.2193C2.4116 11.8769 1.65747 10.0563 1.65747 8.15789C1.65747 6.2595 2.4116 4.43886 3.75397 3.0965C5.09634 1.75413 6.91697 1 8.81537 1C10.7138 1 12.5344 1.75413 13.8768 3.0965C15.2191 4.43886 15.9733 6.2595 15.9733 8.15789V8.15789Z"
+                                    stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+
+                            <input type="text" placeholder="Search an iteam"
+                                class="border border-frst rounded-full bg-[#FCFCFC] h-8 min-w-[450px] pl-10 font-normal text-sm">
+                        </div>
+                        <!-- language -->
+                        <div class="relative dropdown">
+                            <button type="button"
+                                class="flex text-sm font-normal font-inter items-center gap-x-2 text-black dropdown-toggle">
+                                EN
+                                <svg class="pointer-events-none" width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.657471 0.5L5.65747 5.5L10.6575 0.5" stroke="black" />
+                                </svg>
+                            </button>
+                            <div
+                                class="dropdown-content absolute z-50 -bottom-40 left-0 bg-white shadow-second rounded-[10px] min-w-[152px] hidden">
+                                <h6
+                                    class="text-sm xl:text-base font-medium text-frst px-[12px] py-[6px] border-b border-[#E4E4E4]">
+                                    Language</h6>
+
+                                <ul class="py-4 px-[6px] flex flex-col gap-y-2">
+                                    <li>
+                                        <button type="button"
+                                            class="flex items-center w-full h-[34px] border border-[#E4E4E4] rounded-md px-3 py-1 text-xs font-medium anim  bg-[#333D62] text-white">
+                                            English
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button type="button"
+                                            class="flex items-center w-full h-[34px] border border-[#E4E4E4] rounded-md px-3 py-1 text-xs font-medium anim text-black hover:bg-[#333D62] hover:text-white">
+                                            العربية
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- only for desktop -->
+                </div>
+                <!-- brand -->
+
+                <!-- icons -->
+                <div class="w-full text-end flex items-center justify-end gap-x-6 xl:col-span-1">
+                    <button type="button" class="xl:hidden">
+                        <img src="./assets/images/search.svg" alt="search">
+                    </button>
+
+                    <button type="button" class="xl:hidden">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_295_7987)">
+                                <path
+                                    d="M22.5 21.0001H1.50001C0.671548 21.0001 0 20.3285 0 19.5001C0 18.6716 0.671548 18 1.50001 18H22.5C23.3285 18 24.0001 18.6716 24.0001 19.5001C24 20.3285 23.3285 21.0001 22.5 21.0001ZM22.5 13.5H1.50001C0.671548 13.5 0 12.8285 0 12.0001C0 11.1716 0.671548 10.5 1.50001 10.5H22.5C23.3285 10.5 24.0001 11.1716 24.0001 12.0001C24.0001 12.8285 23.3285 13.5 22.5 13.5ZM22.5 6.00002H1.50001C0.671548 6.00002 0 5.32847 0 4.50001C0 3.67155 0.671548 3 1.50001 3H22.5C23.3285 3 24.0001 3.67155 24.0001 4.50001C24.0001 5.32847 23.3285 6.00002 22.5 6.00002Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_295_7987">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                    <!-- only for desktop -->
+                    <div class="hidden xl:flex gap-x-[18px] xl:items-center">
+
+                        <!-- profile dropdown -->
+                        <div class="relative dropdown">
+
+                            <button type="button" class="block dropdown-toggle">
+                                <img src="assets/images/avatar-2.png" alt="img"
+                                    class="w-8 h-8 flex justify-center items-center border border-solid anim hover:border-[#1d1d1d] border-[#E4E4E4] rounded-full p-[2px] pointer-events-none">
+                            </button>
+
+                            <!-- profile-content -->
+                            <div
+                                class="w-[243px] bg-white rounded-[10px] pt-[23px] pb-[19px] px-3 absolute top-10 -right-28 z-50 hidden anim dropdown-content font-inter border border-[#e4e4e4]">
+                                <div class="flex items-center gap-4 mb-[11px]">
+                                    <div
+                                        class="w-[50px] h-[50px] rounded-full border border-solid border-[#E4E4E4] flex justify-center items-center p-1 anim hover:border-black">
+                                        <img class="cursor-pointer" src="assets/images/avatar-2.png" alt="img">
+                                    </div>
+                                    <div class="text-start">
+                                        <h5 class="font-semibold text-[18px] leading-5 text-[#1F0A11]">Bessie Cooper
+                                        </h5>
+                                        <p class="font-normal text-[14px] text-[#4F4F4F]">London, UK
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="bg-[#0D0202D6] mb-6 w-full h-[35px] flex items-center justify-center">
+                                    <h5
+                                        class="w-full path-two flex pl-4 items-center h-[35px] text-left  font-medium text-[15px] text-white">
+                                        Personal</h5>
+                                    <h5 class="w-full pr-4 text-right  font-medium text-[15px] text-white">10
+                                        Ads Live</h5>
+                                </div>
+
+                                <ul class="flex flex-col divide-y-[1px] divide-[#E4E4E4] text-start">
+                                    <li>
+                                        <a href="#" class="block py-3 font-medium text-black text-base">Lisitng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block py-3 font-medium text-black text-base">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block py-3 font-medium text-black text-base">Notification</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block py-3 font-medium text-black text-base">Logout</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block pt-3 font-medium text-black text-base">Business
+                                            Account</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                            <!-- profile-content -->
+
+                        </div>
+                        <!-- profile dropdown -->
+
+
+
+                        <button type="button"
+                            class="flex bg-third text-white text-sm font-normal font-inter items-center px-8 h-8 py-[6px] rounded-full anim hover:bg-white hover:text-first border border-[#350453]">
+                            Post Ad
+                        </button>
+                    </div>
+                </div>
+                <!-- icons -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <main class="w-full">
+        <div class="container">
+            <div class="xl:grid xl:grid-cols-[78%_22%]">
+                <!-- content left -->
+                <div class="w-[98%]">
+                    <div class="xl:flex xl:flex-col">
+                        <!-- category -->
+                        <div class="w-full my-[6px] xl:order-2 xl:my-5">
+                            <div class="hidden xl:flex xl:justify-between mb-[6px] xl:mb-5 xl:items-center">
+                                <h5 class="title">All Categories</h5>
+                                <div class="slider-arrows relative hidden xl:flex xl:items-center xl:gap-x-[14px]">
+                                    <button type="button" class="slide-prev flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                    justify-center anim hover:bg-[#350453] group rtl:order-2">
+                                        <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.69514 11.1428L6.99994 9.83354L2.76165 5.57139L6.99994 1.30925L5.69514 -3.44463e-05L0.142796 5.57139L5.69514 11.1428Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </button>
+
+                                    <button type="button" class="slide-next flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                    justify-center anim hover:bg-[#350453] group rtl:order-1">
+                                        <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                            viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.30474 2.28139e-07L-6.12641e-05 1.30929L4.23823 5.57143L-6.27545e-05 9.83357L1.30474 11.1429L6.85708 5.57143L1.30474 2.28139e-07Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="swiper categorySlider">
+                                <!-- flex items-center gap-x-[5px] xl:gap-x-2 -->
+                                <div class="swiper-wrapper">
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-01.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Automobiles</h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-xs font-medium text-white mt-[6px] xl:font-normal bg-[#D62626] rounded-full">
+                                            Houses
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-xs font-medium text-white mt-[6px] xl:font-normal bg-[#D62626] rounded-full">
+                                            Houses
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-01.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Automobiles</h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Real estate
+                                        </h6>
+                                    </div>
+                                    <!-- item 1 -->
+                                    <!-- /item 7 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Electronics
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-03.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-xs font-medium text-white mt-[6px] xl:font-normal bg-[#D62626] rounded-full">
+                                            Houses
+                                        </h6>
+                                    </div>
+                                    <!-- item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-04.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-[15px] font-medium text-black mt-1 xl:text-sm xl:text-[#1d1d1d] xl:font-normal">
+                                            Electronics
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                    <!-- /item 1 -->
+                                    <div class="text-center shrink-0 swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/images/category-02.png" alt="category"
+                                                class="w-[70px] h-[70px] rounded-full object-cover p-[5px] border border-[#E8E8E8] xl:w-[75px] xl:h-[75px] anim hover:border-[#1d1d1d] mx-auto">
+                                        </a>
+                                        <h6
+                                            class="text-xs font-medium text-white mt-[6px] xl:font-normal bg-[#D62626] rounded-full">
+                                            Houses
+                                        </h6>
+                                    </div>
+                                    <!-- /item 1 -->
+                                </div>
+                            </div>
+                            <!-- bars -->
+                            <div class="w-full h-[2px] bg-[#C4C4C4] mt-6"></div>
+                            <!-- bars -->
+                        </div>
+                        <!-- category -->
+
+                        <!-- hero section -->
+                        <div class="w-full xl:order-1 xl:mt-5">
+                            <img src="./assets/images/hero-mobile.png" alt="hero" class="xl:hidden block w-full">
+                            <img src="./assets/images/tech-high.png" alt="hero"
+                                class="w-full hidden xl:block rounded-md object-fit h-[280px]">
+                        </div>
+                        <!-- hero section -->
+                    </div>
+
+                    <!-- sub category section -->
+                    <div class="w-full my-[14px] xl:mt-0 xl:mb-6">
+
+                        <div class="swiper subCategSlider">
+                            <div class="swiper-wrapper">
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                                <!-- item -->
+                                <div class="w-full flex flex-col items-center swiper-slide">
+                                    <img class="w-[80px] h-[80px] object-cover border border-solid border-[#8F0303B8] rounded-[5px]"
+                                        src="assets/images/big-car.png" alt="img">
+                                    <p
+                                        class="mt-[-9px] border border-solid border-white font-inter font-medium text-[10px] text-white bg-[#D62626] h-4 px-[18px] rounded-[22px]">
+                                        RENT</p>
+                                    <span class="font-inter font-normal text-sm text-[#1D1D1D] pt-1">Options</span>
+                                </div>
+                                <!-- item -->
+                            </div>
+                        </div>
+
+                        <div class="xl:flex xl:justify-between mt-[6px] xl:mbt-5 items-center">
+                            <div class="flex items-center gap-x-3 mt-3">
+                                <button type="button"
+                                    class="flex py-[10px] px-4 bg-white border border-[#E4E4E4] font-medium text-[15px] text-[#5A5D9F] rounded-md anim hover:bg-[#5A5D9F] hover:text-white">
+                                    Save search
+                                </button>
+                                <button type="button"
+                                    class="flex py-[10px] px-4 bg-white border border-[#E4E4E4] font-medium text-[15px] text-[#5A5D9F] rounded-md anim hover:bg-[#5A5D9F] hover:text-white">
+                                    Clear Filters
+                                </button>
+                            </div>
+
+                            <div class="slider-arrows hidden xl:flex xl:items-center xl:gap-x-[14px]">
+                                <button type="button" class="slide-prev-7 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-2">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.69514 11.1428L6.99994 9.83354L2.76165 5.57139L6.99994 1.30925L5.69514 -3.44463e-05L0.142796 5.57139L5.69514 11.1428Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="slide-next-7 flex w-[42px] h-[42px] rounded-[7px] bg-white border border-[#ECECEC] items-center 
+                                justify-center anim hover:bg-[#350453] group rtl:order-1">
+                                    <svg width="7" height="12" class="text-[#575757] anim group-hover:text-white"
+                                        viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.30474 2.28139e-07L-6.12641e-05 1.30929L4.23823 5.57143L-6.27545e-05 9.83357L1.30474 11.1429L6.85708 5.57143L1.30474 2.28139e-07Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- bars -->
+                        <div class="w-full h-[2px] bg-[#C4C4C4] mt-6"></div>
+                        <!-- bars -->
+                    </div>
+                    <!-- sub category section -->
+
+                    <!-- details list start -->
+                    <div class="w-full my-[14px] xl:mb-5">
+                        <div class="flex justify-between mb-2 xl:mb-5 items-center">
+                            <h5 class="title">Apartments in UAE</h5>
+
+                            <div class="flex gap-x-3 items-center">
+                                <button type="button" class="block">
+                                    <svg width="11" height="17" viewBox="0 0 11 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.90229 1.88487V1.89372M1.90229 8.07897V8.08782M1.90229 14.2731V14.2819M1.90229 2.76974C1.68338 2.76974 1.47344 2.67652 1.31865 2.51057C1.16386 2.34462 1.0769 2.11955 1.0769 1.88487C1.0769 1.65019 1.16386 1.42512 1.31865 1.25917C1.47344 1.09323 1.68338 1 1.90229 1C2.12119 1 2.33113 1.09323 2.48592 1.25917C2.64071 1.42512 2.72767 1.65019 2.72767 1.88487C2.72767 2.11955 2.64071 2.34462 2.48592 2.51057C2.33113 2.67652 2.12119 2.76974 1.90229 2.76974ZM1.90229 8.96385C1.68338 8.96385 1.47344 8.87062 1.31865 8.70467C1.16386 8.53873 1.0769 8.31366 1.0769 8.07897C1.0769 7.84429 1.16386 7.61922 1.31865 7.45328C1.47344 7.28733 1.68338 7.1941 1.90229 7.1941C2.12119 7.1941 2.33113 7.28733 2.48592 7.45328C2.64071 7.61922 2.72767 7.84429 2.72767 8.07897C2.72767 8.31366 2.64071 8.53873 2.48592 8.70467C2.33113 8.87062 2.12119 8.96385 1.90229 8.96385ZM1.90229 15.1579C1.68338 15.1579 1.47344 15.0647 1.31865 14.8988C1.16386 14.7328 1.0769 14.5078 1.0769 14.2731C1.0769 14.0384 1.16386 13.8133 1.31865 13.6474C1.47344 13.4814 1.68338 13.3882 1.90229 13.3882C2.12119 13.3882 2.33113 13.4814 2.48592 13.6474C2.64071 13.8133 2.72767 14.0384 2.72767 14.2731C2.72767 14.5078 2.64071 14.7328 2.48592 14.8988C2.33113 15.0647 2.12119 15.1579 1.90229 15.1579Z"
+                                            stroke="#1F0A11" stroke-width="1.8371" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M9.17451 1.88493V1.89378M9.17451 8.07903V8.08788M9.17451 14.2731V14.282M9.17451 2.7698C8.9556 2.7698 8.74566 2.67658 8.59087 2.51063C8.43608 2.34469 8.34912 2.11962 8.34912 1.88493C8.34912 1.65025 8.43608 1.42518 8.59087 1.25923C8.74566 1.09329 8.9556 1.00006 9.17451 1.00006C9.39341 1.00006 9.60335 1.09329 9.75814 1.25923C9.91293 1.42518 9.99989 1.65025 9.99989 1.88493C9.99989 2.11962 9.91293 2.34469 9.75814 2.51063C9.60335 2.67658 9.39341 2.7698 9.17451 2.7698ZM9.17451 8.96391C8.9556 8.96391 8.74566 8.87068 8.59087 8.70473C8.43608 8.53879 8.34912 8.31372 8.34912 8.07903C8.34912 7.84435 8.43608 7.61928 8.59087 7.45334C8.74566 7.28739 8.9556 7.19416 9.17451 7.19416C9.39341 7.19416 9.60335 7.28739 9.75814 7.45334C9.91293 7.61928 9.99989 7.84435 9.99989 8.07903C9.99989 8.31372 9.91293 8.53879 9.75814 8.70473C9.60335 8.87068 9.39341 8.96391 9.17451 8.96391ZM9.17451 15.158C8.9556 15.158 8.74566 15.0648 8.59087 14.8988C8.43608 14.7329 8.34912 14.5078 8.34912 14.2731C8.34912 14.0385 8.43608 13.8134 8.59087 13.6474C8.74566 13.4815 8.9556 13.3883 9.17451 13.3883C9.39341 13.3883 9.60335 13.4815 9.75814 13.6474C9.91293 13.8134 9.99989 14.0385 9.99989 14.2731C9.99989 14.5078 9.91293 14.7329 9.75814 14.8988C9.60335 15.0648 9.39341 15.158 9.17451 15.158Z"
+                                            stroke="#1F0A11" stroke-width="1.8371" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                                <h5 class="title">Filter</h5>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mb-4 xl:mb-8 items-center">
+                            <ul class="flex gap-x-5 items-center flex-wrap gap-y-2 font-inter">
+                                <li><a href="#" class="block text-[#5A5D9F] font-medium text-sm">Dubai 320</a></li>
+                                <li><a href="#" class="block text-[#5A5D9F] font-medium text-sm">Abudhabi 170</a></li>
+                                <li><a href="#" class="block text-[#5A5D9F] font-medium text-sm">Sharhah 170</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-y-4 xl:grid xl:grid-cols-2 xl:gap-x-5 xl:gap-y-[22px]">
+                            <!-- itm -->
+                            <div class="w-full shadow-second bg-white rounded-md">
+                                <div class="header flex items-center justify-between py-[6px] px-3">
+                                    <div class="flex gap-x-2 items-center">
+                                        <img src="./assets/images/avatar.png" alt="avatar"
+                                            class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                        <div class="w-full">
+                                            <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                            <p
+                                                class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                London</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-end flex items-center gap-x-4">
+                                        <button type="button">
+                                            <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </button>
+                                        <button type="button">
+                                            <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                    stroke="black" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- thumb slider -->
+                                <div class="w-full relative">
+
+                                    <!-- thumb slider -->
+                                    <div class="swiper thumbnailSwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/red-car.png" alt="car"
+                                                    class="w-full h-[235px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/add-01.png" alt="car"
+                                                    class="w-full h-[235px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/add-02.png" alt="car"
+                                                    class="w-full h-[235px] object-cover">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- thumb slider -->
+                                    <div
+                                        class="swiper-pagination bg-black bg-opacity-50 rounded-full py-1 px-2 text-white font-medium text-sm w-auto ml-[50%] -translate-x-[50%]">
+                                    </div>
+
+                                    <span
+                                        class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block absolute -bottom-[6px] left-0 z-40">AED14,343</span>
+                                </div>
+                                <!-- thumb slider -->
+
+                                <div class="badge bg-[#0D0202D6] px-4 py-2 -mt-[1px]">
+                                    <ul class="flex items-center justify-between gap-x-2">
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">3 Bedroom </p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">2 Bath</p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">1200 Sq.ft </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="px-2 py-3">
+                                    <h5 class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize">
+                                        ntroducing the All-New Exhilarator X</h5>
+                                    <p class="text-sm font-normal leading-5 text-black">Get ready to experience the
+                                        epitome of automotive excellence with the all-new Exhilarator X.</p>
+
+                                    <div
+                                        class="pt-3 mt-3 border-t border-[#00000021] flex items-center justify-between w-full">
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">London UK</span>
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">6 Hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="w-full shadow-second bg-white rounded-md">
+                                <div class="header flex items-center justify-between py-[6px] px-3">
+                                    <div class="flex gap-x-2 items-center">
+                                        <img src="./assets/images/avatar.png" alt="avatar"
+                                            class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                        <div class="w-full">
+                                            <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                            <p
+                                                class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                London</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-end flex items-center gap-x-4">
+                                        <button type="button">
+                                            <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </button>
+                                        <button type="button">
+                                            <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                    stroke="black" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- thumb slider -->
+                                <div class="w-full relative">
+                                    <!-- thumb slider -->
+                                    <div class="swiper thumbnailSwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/red-car.png" alt="car"
+                                                    class="w-full h-[235px] object-cover">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./assets/images/add-01.png" alt="car"
+                                                    class="w-full h-[235px] object-cover">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- thumb slider -->
+
+                                    <span
+                                        class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block absolute -bottom-[6px] left-0 z-40">AED14,343</span>
+                                </div>
+                                <!-- thumb slider -->
+                                <!-- <div class="swiper-pagination2 bg-black bg-opacity-50 rounded-full py-1 px-2 text-white font-medium text-sm w-auto ml-[50%] -translate-x-[50%]"></div> -->
+
+                                <div class="badge bg-[#0D0202D6] px-4 py-2 -mt-[1px]">
+                                    <ul class="flex items-center justify-between gap-x-2">
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">3 Bedroom </p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">2 Bath</p>
+                                        </li>
+                                        <li>
+                                            <span class="block w-[1px] h-[23px] bg-[#A8A8A8]"></span>
+                                        </li>
+                                        <li>
+                                            <p class="font-inter font-semibold text-sm text-white">1200 Sq.ft </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="px-2 py-3">
+
+                                    <h5 class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize">
+                                        ntroducing the All-New Exhilarator X</h5>
+                                    <p class="text-sm font-normal leading-5 text-black">Get ready to experience the
+                                        epitome of automotive excellence with the all-new Exhilarator X.</p>
+
+                                    <div
+                                        class="pt-3 mt-3 border-t border-[#00000021] flex items-center justify-between w-full">
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">London UK</span>
+                                        <span class="block text-xs font-light text-[#1F0A11E5]">6 Hours ago</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- itm -->
+                        </div>
+                    </div>
+                    <!-- details list end -->
+
+                    <!-- poster -->
+                    <div class="w-full my-3 xl:my-5">
+                        <img src="./assets/images/newst-auto-cover.png" alt="cover" class="w-full block xl:hidden">
+                        <img src="./assets/images/tech-poster.png" alt="cover" class="w-full hidden xl:block">
+                    </div>
+                    <!-- poster -->
+
+                    <!-- bottom add listing -->
+                    <div class="w-full hidden xl:block mb-5">
+                        <div class="flex gap-y-5 flex-col">
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                            <!-- itm -->
+                            <div class="grid items-center gap-x-5 grid-cols-2">
+                                <!-- video -->
+                                <div class="w-full">
+                                    <img src="./assets/images/video-thumb.png" alt="thumbnail"
+                                        class="w-full rounded-md h-[307px] object-cover">
+                                </div>
+                                <!-- video -->
+
+                                <!-- txt -->
+                                <div class="w-full shadow-second bg-white rounded-md">
+                                    <div
+                                        class="header flex items-center justify-between py-[6px] px-3 border-b border-[#A351B0]">
+                                        <div class="flex gap-x-2 items-center">
+                                            <img src="./assets/images/avatar.png" alt="avatar"
+                                                class="w-9 h-9 p-1 border border-first rounded-full xl:w-[45px] xl:h-[45px]">
+                                            <div class="w-full">
+                                                <h6 class="font-semibold text-sm text-black">Curve line</h6>
+                                                <p
+                                                    class="font-inter text-[13px] font-light text-black text-opacity-80 tracking-[0.5%]">
+                                                    London</p>
+                                            </div>
+                                        </div>
+                                        <div class="text-end flex items-center gap-x-4">
+                                            <button type="button">
+                                                <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.3571 25.1345L15.2576 2.68205C15.2546 2.01007 15.0266 1.36664 14.6238 0.893307C14.221 0.419977 13.6763 0.155521 13.1095 0.158115L2.4254 0.207017C1.85868 0.20961 1.31635 0.479042 0.917724 0.956039C0.519096 1.43304 0.296822 2.07853 0.299799 2.75051L0.399268 25.203L7.85251 19.378L15.3571 25.1345Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </button>
+                                            <button type="button">
+                                                <svg width="5" height="26" viewBox="0 0 5 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M2.67848 2.95378V2.96794M2.67848 12.8704V12.8846M2.67848 22.7871V22.8013M2.67848 4.37044C2.32802 4.37044 1.99191 4.22119 1.74409 3.95551C1.49628 3.68983 1.35706 3.3295 1.35706 2.95378C1.35706 2.57805 1.49628 2.21772 1.74409 1.95204C1.99191 1.68637 2.32802 1.53711 2.67848 1.53711C3.02895 1.53711 3.36506 1.68637 3.61287 1.95204C3.86069 2.21772 3.99991 2.57805 3.99991 2.95378C3.99991 3.3295 3.86069 3.68983 3.61287 3.95551C3.36506 4.22119 3.02895 4.37044 2.67848 4.37044ZM2.67848 14.2871C2.32802 14.2871 1.99191 14.1379 1.74409 13.8722C1.49628 13.6065 1.35706 13.2462 1.35706 12.8704C1.35706 12.4947 1.49628 12.1344 1.74409 11.8687C1.99191 11.603 2.32802 11.4538 2.67848 11.4538C3.02895 11.4538 3.36506 11.603 3.61287 11.8687C3.86069 12.1344 3.99991 12.4947 3.99991 12.8704C3.99991 13.2462 3.86069 13.6065 3.61287 13.8722C3.36506 14.1379 3.02895 14.2871 2.67848 14.2871ZM2.67848 24.2038C2.32802 24.2038 1.99191 24.0545 1.74409 23.7888C1.49628 23.5232 1.35706 23.1628 1.35706 22.7871C1.35706 22.4114 1.49628 22.051 1.74409 21.7854C1.99191 21.5197 2.32802 21.3704 2.67848 21.3704C3.02895 21.3704 3.36506 21.5197 3.61287 21.7854C3.86069 22.051 3.99991 22.4114 3.99991 22.7871C3.99991 23.1628 3.86069 23.5232 3.61287 23.7888C3.36506 24.0545 3.02895 24.2038 2.67848 24.2038Z"
+                                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 py-3">
+
+                                        <span
+                                            class="path-two text-[15px] font-semibold text-white uppercase px-2 py-[6px] pr-[32px] inline-block rtl:hidden">AED14,343</span>
+                                        <span
+                                            class="path-one text-[15px] font-semibold text-white uppercase px-2 py-[6px] pl-[32px] hidden rtl:inline-block">AED14,343</span>
+
+                                        <h5
+                                            class="text-black font-medium text-[17px] leading-[23px] mb-3 capitalize mt-3">
+                                            ntroducing the All-New Exhilarator X the All-New Exhilarator X</h5>
+                                        <p class="text-sm font-normal leading-5 text-black scroll-mb-8">Get ready to
+                                            experience the epitome of automotive excellence with the all-new Exhilarator
+                                            X. Designed to captivate both your heart imagination, performance....
+                                        </p>
+
+                                        <div
+                                            class="pt-3 mt-6 border-t border-[#00000021] flex items-center justify-between w-full">
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">London
+                                                UK</span>
+                                            <span
+                                                class="block text-xs font-light text-[#1F0A11E5] xl:text-sm xl:font-medium">6
+                                                Hours ago</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- txt -->
+                            </div>
+                            <!-- itm -->
+                        </div>
+                        <div class="text-center my-12">
+                            <a href="#"
+                                class="bg-[#35164D] px-7 py-[10px] inline-flex rounded-lg text-white font-semibold text-base anim hover:bg-second">See
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- bottom add listing -->
+                </div>
+                <!-- content left -->
+
+                <!-- content rightbar -->
+                <div class="w-full pt-5 hidden xl:block">
+                    <!-- side-bar-section -->
+                    <div class="relative mb-8">
+                        <img class="w-full object-cover rounded-lg" src="assets/images/side-bar-car.png" alt="img">
+                        <div class="w-full absolute bottom-0 left-0 sidecar-bg text-center px-4 rounded-b-lg">
+                            <h3 class="pb-[40px] font-bold text-[20px] text-white leading-[26px]">
+                                Get ready to experience the epitome
+                                of automotive excellence Get read
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- filter -->
+                    <div class="w-full mt-5 bg-white">
+                        <div class="header bg-[#303030] rounded-t-[10px] flex items-center justify-between pr-5">
+                            <h5
+                                class="text-xl font-medium text-white italic pl-5 path-three bg-[#8F0303B8] h-[50px] w-1/2 rounded-tl-[10px] inline-flex items-center">
+                                Filter</h5>
+                            <button type="button">
+                                <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.2396 0L6.86918 5.026L2.49875 0L0.782227 1.974L5.15266 7L0.782227 12.026L2.49875 14L6.86918 8.974L11.2396 14L12.9561 12.026L8.5857 7L12.9561 1.974L11.2396 0Z"
+                                        fill="#FEFDFD" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <!-- location -->
+                        <div class="px-2 bg-white pt-3">
+                            <div class="w-full rounded-[10px] shadow-lg border border-gray-200 dropdown-side">
+                                <h5 class="font-medium text-base text-[#1F0A11] py-2 px-5 border-b border-[#DDDDDD]">
+                                    Location</h5>
+                                <div class="py-[10px] px-3 flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">Dubai</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg class="pointer-events-none" width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- search -->
+                                <div class="px-3 pb-2 hidden anim dropdown-content-side">
+                                    <div class="relative mb-3">
+                                        <input type="text" placeholder="Search Location"
+                                            class="h-9 rounded-full border border-[#E4E4E4] px-4 w-full text-sm font-normal text-black">
+
+                                        <button type="button" class="absolute right-3 top-1/2 -translate-y-1/2">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 17L13.2223 13.2156M15.3158 8.15789C15.3158 10.0563 14.5617 11.8769 13.2193 13.2193C11.8769 14.5617 10.0563 15.3158 8.15789 15.3158C6.2595 15.3158 4.43886 14.5617 3.0965 13.2193C1.75413 11.8769 1 10.0563 1 8.15789C1 6.2595 1.75413 4.43886 3.0965 3.0965C4.43886 1.75413 6.2595 1 8.15789 1C10.0563 1 11.8769 1.75413 13.2193 3.0965C14.5617 4.43886 15.3158 6.2595 15.3158 8.15789V8.15789Z"
+                                                    stroke="#8C8C8C" stroke-width="1.5" stroke-linecap="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <ul class="flex flex-col gap-y-2 font-inter">
+                                        <li>
+                                            <a href="#" class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] 
+                                            py-2 px-6 anim hover:bg-second hover:text-white">Portland, Illinois</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">Lafayette,
+                                                California</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">Lansing,
+                                                Illinois</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">Coppell,
+                                                Virginia</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- search -->
+                            </div>
+                        </div>
+                        <!-- location -->
+
+                        <!-- option -->
+                        <div class="px-2 bg-white py-3">
+                            <div class="w-full rounded-[10px] shadow-lg border border-gray-200 dropdown-side">
+                                <h5 class="font-medium text-base text-[#1F0A11] py-2 px-5 border-b border-[#DDDDDD]">
+                                    Options</h5>
+                                <div class="py-[10px] px-3 flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">For Sale</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- search -->
+                                <div class="px-3 pb-2 hidden anim dropdown-content-side">
+
+                                    <ul class="flex flex-col gap-y-2 font-inter">
+                                        <li>
+                                            <a href="#" class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] 
+                                            py-2 px-6 anim hover:bg-second hover:text-white">For Sale </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">To
+                                                Rent</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">Wanted</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block border border-[#E4E4E4] rounded-md text-xs font-medium text-[#000000BF] py-2 px-6 anim hover:bg-second hover:text-white">Wanted</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- option -->
+
+                        <!-- price -->
+                        <div class="px-2 bg-white second">
+                            <div class="w-full rounded-[10px] shadow-lg border border-gray-200 dropdown-side">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-5 border-b border-[#DDDDDD]">
+                                    Price</h5>
+                                <div class="py-[10px] px-3 flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">AED 1000</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- search -->
+                                <div class="w-full px-3 pb-2 hidden anim dropdown-content-side">
+                                    <div class="w-full flex items-start gap-[8px]">
+                                        <div class="w-full">
+                                            <h3 class="pb-[12px] font-inter font-medium text-[#323232] text-[16px]">Min
+                                            </h3>
+                                            <div
+                                                class="w-full h-[32px] rounded-[4px] border border-solid border-[#E4E4E4] flex items-center">
+                                                <span
+                                                    class="pl-[8px] font-inter font-medium text-[#454545] text-[12px]">AED
+                                                    |
+                                                </span>
+                                                <input class="w-[28%]" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="pb-[12px] font-inter font-medium text-[#323232] text-[16px]">Max
+                                            </h3>
+                                            <div
+                                                class="w-full h-[32px] rounded-[4px] border border-solid border-[#E4E4E4] flex items-center">
+                                                <span
+                                                    class="pl-[8px] font-inter font-medium text-[#454545] text-[12px]">AED
+                                                    |
+                                                </span>
+                                                <input class="w-[28%]" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- price -->
+                        <!-- text -->
+                        <div class="px-2 bg-white py-3">
+                            <div class="w-full rounded-[10px] shadow-lg border border-gray-200 dropdown-side anim">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-5 border-b border-[#DDDDDD]">
+                                    Text</h5>
+                                <div class="py-[10px] px-3 flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">Some Text</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- search -->
+                                <div class="w-full px-3 pb-[14px] hidden anim dropdown-content-side">
+                                    <div class="w-full flex flex-col justify-center items-center">
+                                        <div class="w-full pb-[14px]">
+                                            <input
+                                                class="w-full h-[34px] border border-solid border-[#E4E4E4] rounded-[6px] text-[#000000BF] pl-[14px]"
+                                                type="text" placeholder="Text">
+                                        </div>
+                                        <button type="button">
+                                            <span
+                                                class="font-inter font-medium text-[12px] text-white hover:bg-[#131e3f] transition duration-[0.2s] h-[34px] px-[38px] inline-flex items-center justify-center bg-[#323D62] rounded-[6px]">OK</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- text -->
+                        <!-- number -->
+                        <div class="px-2 bg-white">
+                            <div class="w-full rounded-[10px] shadow-lg border border-gray-200 dropdown-side anim">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-5 border-b border-[#DDDDDD]">
+                                    Number</h5>
+                                <div class="py-[10px] px-3 flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">0123456</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <!-- search -->
+                                <div class="w-full px-3 pb-[14px] hidden anim dropdown-content-side">
+                                    <div class="w-full flex flex-col justify-center items-center">
+                                        <div class="w-full pb-[14px]">
+                                            <input
+                                                class="w-full h-[34px] border border-solid border-[#E4E4E4] rounded-[6px] text-[#000000BF] pl-[14px]"
+                                                type="text" placeholder="Number">
+                                        </div>
+                                        <button type="button">
+                                            <span
+                                                class="font-inter font-medium text-[12px] text-white hover:bg-[#131e3f] transition duration-[0.2s] h-[34px] px-[38px] inline-flex items-center justify-center bg-[#323D62] rounded-[6px]">OK</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- number -->
+                        <!-- calendar -->
+                        <div class="py-3 px-[8px]">
+                            <div class="second w-full rounded-[10px] border border-gray-200 dropdown-side anim">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-[22px] border-b border-[#DDDDDD]">
+                                    Date</h5>
+                                <div class="py-[17px] pl-[20px] pr-[6px] flex items-center justify-between">
+                                    <p class="font-medium text-base text-[#1F0A11] ">13 June 2023</p>
+                                    <button type="button" class="dropdown-sidebar px-2">
+                                        <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="px-[6px] hidden anim dropdown-content-side">
+                                    <div
+                                        class="w-full mb-[8px] h-[34px] rounded-[4px] border border-solid border-[#E4E4E4] flex items-center">
+                                        <span class="px-3 font-inter font-medium text-[#454545] text-[12px]">13 June
+                                            2023</span>
+                                    </div>
+
+                                    <div
+                                        class="mb-[8px] calendar-container border border-solid border-[#E4E4E4] rounded-[6px]">
+                                        <div class="calendar-header head">
+                                            <p class="calendar-current-date"></p>
+                                            <select id="year-dropdown" class="year-dropdown"></select>
+                                            
+                                            <div class="calendar-navigation">
+                                                <span id="calendar-prev"
+                                                    class="flex items-center justify-center material-symbols-rounded"><svg
+                                                        width="8" height="13" viewBox="0 0 8 13" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M7.94699 1.90959L6.60112 0.563721L0.874023 6.29082L6.60112 12.0179L7.94699 10.672L3.57531 6.29082L7.94699 1.90959Z"
+                                                            fill="black" fill-opacity="0.6" />
+                                                    </svg>
+                                                </span>
+                                                <span id="calendar-next"
+                                                    class="flex items-center justify-center material-symbols-rounded"><svg
+                                                        width="8" height="13" viewBox="0 0 8 13" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1.78337 0.563599L0.4375 1.90947L4.80919 6.2907L0.4375 10.6719L1.78337 12.0178L7.51047 6.2907L1.78337 0.563599Z"
+                                                            fill="black" fill-opacity="0.6" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                           
+                                        </div>
+
+                                        <div class="calendar-body">
+                                            <ul class="calendar-weekdays">
+                                                <li>S</li>
+                                                <li>M</li>
+                                                <li>T</li>
+                                                <li>W</li>
+                                                <li>T</li>
+                                                <li>F</li>
+                                                <li>S</li>
+                                            </ul>
+                                            <ul class="calendar-dates"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- calendar -->
+                        <!-- calendar-tow -->
+                        <div class="py-3 px-[8px]">
+                            <div class="second w-full rounded-[10px] border border-gray-200 dropdown-side anim">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-[22px] border-b border-[#DDDDDD]">
+                                    Date Range</h5>
+                                <div class="py-[17px] pl-[20px] pr-[6px]">
+                                    <div class="flex items-center justify-between">
+                                        <div class="w-[160px] flex justify-between items-center">
+                                            <p class="font-inter font-medium text-[15px] text-black">From:</p>
+                                            <span class="font-inter font-medium text-[15px] text-black">13 June
+                                                2023</span>
+                                        </div>
+                                        <button type="button" class="dropdown-sidebar px-2">
+                                            <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                    stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="w-[160px] flex items-center justify-between">
+                                        <p class="font-inter font-medium text-[15px] text-black">To:</p>
+                                        <span class="font-inter font-medium text-[15px] text-black">13 June 2023</span>
+                                    </div>
+                                </div>
+
+                                <div class="px-[6px] hidden anim dropdown-content-side">
+                                    <div
+                                        class="w-full pl-[20px] pr-[10px] mb-[8px] h-[34px] rounded-[4px] border border-solid border-[#E4E4E4] flex items-center justify-between">
+                                        <span class="pl-[8px] font-inter font-medium text-[#454545] text-[12px]">From:
+                                            13 June 2023</span>
+                                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.0732422 0.454224L5.56884 6.18132L11.0644 0.454224H0.0732422Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                    </div>
+                                    <div
+                                        class="w-full pl-[20px] pr-[10px] mb-[8px] h-[34px] rounded-[4px] border border-solid border-[#E4E4E4] flex items-center justify-between">
+                                        <span class="pl-[8px] font-inter font-medium text-[#454545] text-[12px]">To: 13
+                                            June 2023</span>
+                                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.0732422 0.454224L5.56884 6.18132L11.0644 0.454224H0.0732422Z"
+                                                fill="black" fill-opacity="0.6" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- calendar-tow -->
+                        
+                        <!-- multiplecheckbox -->
+                        <div class="py-3 px-[8px]">
+                            <div class="second w-full rounded-[10px] border border-gray-200 dropdown-side anim">
+                                <h5
+                                    class="font-medium italic text-base text-[#1F0A11] py-2 px-[22px] border-b border-[#DDDDDD]">
+                                    MultipleCheckBox</h5>
+                                <div class="py-[17px] pl-[20px] pr-[6px]">
+                                    <div class="flex items-center justify-between">
+                                        <div class="w-[160px] flex justify-between items-center">
+                                            <p class="font-inter font-medium text-[15px] text-black">All</p> 
+                                        </div>
+                                        <button type="button" class="dropdown-sidebar px-2">
+                                            <svg width="5" height="19" viewBox="0 0 5 19" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M2.14964 2.7847V2.79447M2.14964 9.61832V9.62808M2.14964 16.4519V16.4617M2.14964 3.76093C2.40236 3.76093 2.64474 3.65808 2.82344 3.475C3.00214 3.29192 3.10254 3.04362 3.10254 2.7847C3.10254 2.52579 3.00214 2.27748 2.82344 2.0944C2.64474 1.91132 2.40236 1.80847 2.14964 1.80847C1.89691 1.80847 1.65453 1.91132 1.47583 2.0944C1.29713 2.27748 1.19673 2.52579 1.19673 2.7847C1.19673 3.04362 1.29713 3.29192 1.47583 3.475C1.65453 3.65808 1.89691 3.76093 2.14964 3.76093ZM2.14964 10.5946C2.40236 10.5946 2.64474 10.4917 2.82344 10.3086C3.00214 10.1255 3.10254 9.87723 3.10254 9.61832C3.10254 9.35941 3.00214 9.1111 2.82344 8.92802C2.64474 8.74494 2.40236 8.64209 2.14964 8.64209C1.89691 8.64209 1.65453 8.74494 1.47583 8.92802C1.29713 9.1111 1.19673 9.35941 1.19673 9.61832C1.19673 9.87723 1.29713 10.1255 1.47583 10.3086C1.65453 10.4917 1.89691 10.5946 2.14964 10.5946ZM2.14964 17.4282C2.40236 17.4282 2.64474 17.3253 2.82344 17.1422C3.00214 16.9592 3.10254 16.7109 3.10254 16.4519C3.10254 16.193 3.00214 15.9447 2.82344 15.7616C2.64474 15.5786 2.40236 15.4757 2.14964 15.4757C1.89691 15.4757 1.65453 15.5786 1.47583 15.7616C1.29713 15.9447 1.19673 16.193 1.19673 16.4519C1.19673 16.7109 1.29713 16.9592 1.47583 17.1422C1.65453 17.3253 1.89691 17.4282 2.14964 17.4282Z"
+                                                    stroke="#1F0A11" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div> 
+                                </div>
+
+                                <div class="px-[12px] hidden anim dropdown-content-side">
+                                    
+                                    <form action="#">
+                                        <div
+                                            class="mb-[8px] last:mb-0 w-full px-[13px] py-[8px] rounded-[6px] bg-white border border-solid border-[#E4E4E4]">
+                                            <label for="multicheck-01" class="flex items-center justify-between">
+                                                <span class="font-inter font-medium text-[12px] text-[#111111]">For
+                                                    Sale</span>
+                                                <input class="multichekinput hidden" type="checkbox" id="multicheck-01">
+                                                <div
+                                                    class="multicheck w-[12px] h-[12px] rounded-[2px] border border-solid border-[#ADADAD]">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div
+                                            class="mb-[8px] last:mb-0 w-full px-[13px] py-[8px] rounded-[6px] bg-white border border-solid border-[#E4E4E4]">
+                                            <label for="multicheck-02" class="flex items-center justify-between">
+                                                <span class="font-inter font-medium text-[12px] text-[#111111]">For
+                                                    Sale</span>
+                                                <input class="multichekinput hidden" type="checkbox" id="multicheck-02">
+                                                <div
+                                                    class="multicheck w-[12px] h-[12px] rounded-[2px] border border-solid border-[#ADADAD]">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div
+                                            class="mb-[8px] last:mb-0 w-full px-[13px] py-[8px] rounded-[6px] bg-white border border-solid border-[#E4E4E4]">
+                                            <label for="multicheck-03" class="flex items-center justify-between">
+                                                <span class="font-inter font-medium text-[12px] text-[#111111]">For
+                                                    Sale</span>
+                                                <input class="multichekinput hidden" type="checkbox" id="multicheck-03">
+                                                <div
+                                                    class="multicheck w-[12px] h-[12px] rounded-[2px] border border-solid border-[#ADADAD]">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div
+                                            class="mb-[8px] last:mb-0 w-full px-[13px] py-[8px] rounded-[6px] bg-white border border-solid border-[#E4E4E4]">
+                                            <label for="multicheck-04" class="flex items-center justify-between">
+                                                <span class="font-inter font-medium text-[12px] text-[#111111]">For
+                                                    Sale</span>
+                                                <input class="multichekinput hidden" type="checkbox" id="multicheck-04">
+                                                <div
+                                                    class="multicheck w-[12px] h-[12px] rounded-[2px] border border-solid border-[#ADADAD]">
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div
+                                            class="mb-[8px] last:mb-0 w-full px-[13px] py-[8px] rounded-[6px] bg-white border border-solid border-[#E4E4E4]">
+                                            <label for="multicheck-05" class="flex items-center justify-between">
+                                                <span class="font-inter font-medium text-[12px] text-[#111111]">For
+                                                    Sale</span>
+                                                <input class="multichekinput hidden" type="checkbox" id="multicheck-05">
+                                                <div
+                                                    class="multicheck w-[12px] h-[12px] rounded-[2px] border border-solid border-[#ADADAD]">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </form>
+
+                                    <button type="button"
+                                        class="w-full flex justify-center items-center mt-[35px] mb-[11px]">
+                                        <span
+                                            class="font-inter font-medium text-[12px] text-white hover:bg-[#131e3f] transition duration-[0.2s] h-[34px] px-[38px] inline-flex items-center justify-center bg-[#323D62] rounded-[6px]">OK</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- multiplecheckbox --> 
+                    </div>
+                    <!-- filter -->
+
+                    <div class="w-full bg-white news-fashion-shadow rounded-[10px]">
+                        <div class="flex items-center w-full h-[50px] news-fashion-bg rounded-tr-[10px]">
+                            <h4 class="text-left pl-[14px] leading-[20px] text-[16px] font-inter font-bold">News in
+                                Fashion</h4>
+                        </div>
+                        <div class="px-[12px]">
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-t border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-md object-cover"
+                                    src="assets/images/fashion-man-img.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-xs text-[#000000B0] leading-4">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-02.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="py-[14px] flex items-center gap-[14px] border-b border-solid border-[#DDDDDD] last:border-none">
+                                <img class="w-[56px] h-[56px] rounded-[6px] object-cover"
+                                    src="assets/images/fashion-man-img-03.png" alt="img">
+                                <div class="">
+                                    <h4 class="pb-[6px] font-inter text-[12px] text-[#000000B0] leading-[16px]">Get
+                                        ready to experience the epitome of automotive</h4>
+                                    <div class="flex justify-between">
+                                        <a href="#"
+                                            class="font-inter font-semibold text-[12px] leading-[18px] text-[#000000CF]">AED1200</a>
+                                        <p class="font-inter font-medium text-[12px] leading-[18px] text-[#000000CF]">
+                                            London</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                    <div class="mt-[125px]">
+                        <div class="relative w-full mb-[23px] last:mb-0">
+                            <img class="w-full h-[176px] rounded-[10px] object-cover" src="assets/images/red-car.png"
+                                alt="img">
+                            <div
+                                class="h-full flex flex-col justify-between absolute top-0 left-0 rounded-[10px] car-gradient">
+                                <div class="flex items-center gap-[14px] mt-[10px] ml-4">
+                                    <div
+                                        class="w-10 h-10 flex justify-center items-center border border-solid border-[#C4C4C4] rounded-full">
+                                        <img class="w-[35px] h-[35px] rounded-full" src="assets/images/car-man-img.png"
+                                            alt="img">
+                                    </div>
+                                    <div class="g">
+                                        <h4 class="font-inter font-semibold text-[14px] text-white pb-[4px]">Curve line
+                                        </h4>
+                                        <p class="font-inter font-light text-[12px] text-white">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="ml-[18px] mb-[10px] font-inter font-medium text-[12px] leading-[16px] text-white">
+                                    Get ready to experience the epitome of automotive excellence Get ready.....</p>
+                            </div>
+                        </div>
+                        <div class="relative w-full mb-[23px] last:mb-0">
+                            <img class="w-full h-[176px] rounded-[10px] object-cover" src="assets/images/red-car.png"
+                                alt="img">
+                            <div
+                                class="h-full flex flex-col justify-between absolute top-0 left-0 rounded-[10px] car-gradient">
+                                <div class="flex items-center gap-[14px] mt-[10px] ml-[16px]">
+                                    <div
+                                        class="w-[40px] h-[40px] flex justify-center items-center border border-solid border-[#C4C4C4] rounded-full">
+                                        <img class="w-[35px] h-[35px] rounded-full" src="assets/images/car-man-img.png"
+                                            alt="img">
+                                    </div>
+                                    <div class="g">
+                                        <h4 class="font-inter font-semibold text-[14px] text-white pb-[4px]">Curve line
+                                        </h4>
+                                        <p class="font-inter font-light text-[12px] text-white">London</p>
+                                    </div>
+                                </div>
+                                <p
+                                    class="ml-[18px] mb-[10px] font-inter font-medium text-[12px] leading-[16px] text-white">
+                                    Get ready to experience the epitome of automotive excellence Get ready.....</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- car-video -->
+                     
+ 
+                    <!-- side-bar-section -->
+                </div>
+                <!-- content rightbar -->
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer class="w-full bg-[#332A2A] py-4 xl:py-6 mt-4 xl:mt-8">
+        <div class="container">
+            <div class="text-center">
+                <p class="text-sm font-medium text-white">4000&copy; Copyright 2023, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/slider-custom.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/calendar.js"></script>
+</body>
+
+</html>
